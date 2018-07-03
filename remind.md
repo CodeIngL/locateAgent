@@ -10,3 +10,11 @@ test.sh 是测试findAgent.sh的输出
 ### 改造 ###
 
 修改findAgent.sh 可以改造70-90行，自定义使用
+
+### 增加weblogic支持 ###
+
+脚本中替换变量 
+
+	JAVA_OPTS 为 JAVA_OPTIONS
+
+然后参考 test.sh

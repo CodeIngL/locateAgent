@@ -18,3 +18,15 @@ test.sh 是测试findAgent.sh的输出
 	JAVA_OPTS 为 JAVA_OPTIONS
 
 然后参考 test.sh
+
+### 扩展 ###
+
+findAgentForAspectj是对纯aspectj的支持
+
+### FQA ###
+
+1. 如何覆盖默认定制化
+
+		-Dxxx=xxx,后设置生效，
+		因此脚本里设置来，还是可以被覆盖的
+
